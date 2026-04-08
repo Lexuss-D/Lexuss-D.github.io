@@ -1,0 +1,626 @@
+{
+  "meta": {
+    "title": "Zhidong Ling | Academic Homepage",
+    "description": {
+      "ja": "凌 志棟の研究・論文・経歴をまとめた GitHub Pages 用の個人ホームページ。",
+      "en": "A GitHub Pages academic homepage for Zhidong Ling, featuring research, publications, and background."
+    }
+  },
+  "profile": {
+    "name": {
+      "en": "Zhidong Ling",
+      "ja": "凌 志棟"
+    },
+    "subtitle": {
+      "ja": "研究・論文・経歴をまとめた個人ページ",
+      "en": "Personal site for research, publications, and academic background"
+    },
+    "eyebrow": {
+      "ja": "Academic Homepage",
+      "en": "Academic Homepage"
+    },
+    "description": {
+      "ja": "一橋大学 社会計算言語学研究室（小町研究室）D2。意味変化検出、単語表現、平易化、辞書構築を中心に研究しています。",
+      "en": "D2 at the Social Computational Linguistics Lab (Komachi Lab), Hitotsubashi University. My research focuses on lexical semantic change detection, word representations, text simplification, and dictionary construction."
+    },
+    "heroTags": [
+      "Hitotsubashi University",
+      "Lexical Semantic Change",
+      "NLP",
+      "Dictionary Construction"
+    ],
+    "contact": {
+      "email": "shito@komachi.live",
+      "x": {
+        "label": "@Dlexus4",
+        "url": "https://twitter.com/Dlexus4"
+      },
+      "speakerDeck": {
+        "label": "lexusd",
+        "url": "https://speakerdeck.com/lexusd"
+      }
+    },
+    "heroLinks": [
+      {
+        "kind": "email",
+        "label": {
+          "ja": "Email",
+          "en": "Email"
+        },
+        "value": "shito@komachi.live"
+      },
+      {
+        "kind": "link",
+        "label": {
+          "ja": "Komachi Lab",
+          "en": "Komachi Lab"
+        },
+        "url": "https://hit.komachi.live/"
+      },
+      {
+        "kind": "cv",
+        "label": {
+          "ja": "CV 準備中",
+          "en": "CV coming soon"
+        },
+        "url": ""
+      }
+    ],
+    "image": {
+      "path": "",
+      "alt": {
+        "ja": "プロフィール写真",
+        "en": "Profile photo"
+      },
+      "placeholder": "ZL",
+      "caption": {
+        "ja": "プロフィール写真の差し替え枠",
+        "en": "Reserved slot for profile photo"
+      }
+    }
+  },
+  "navigation": [
+    {
+      "id": "about",
+      "label": {
+        "ja": "概要",
+        "en": "About"
+      }
+    },
+    {
+      "id": "research",
+      "label": {
+        "ja": "研究",
+        "en": "Research"
+      }
+    },
+    {
+      "id": "publications",
+      "label": {
+        "ja": "論文",
+        "en": "Publications"
+      }
+    },
+    {
+      "id": "experience",
+      "label": {
+        "ja": "経歴",
+        "en": "Experience"
+      }
+    },
+    {
+      "id": "education",
+      "label": {
+        "ja": "学歴",
+        "en": "Education"
+      }
+    },
+    {
+      "id": "links",
+      "label": {
+        "ja": "リンク",
+        "en": "Links"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "about",
+      "kicker": "01",
+      "title": {
+        "ja": "About",
+        "en": "About"
+      },
+      "type": "cards",
+      "cards": [
+        {
+          "title": {
+            "ja": "プロフィール",
+            "en": "Profile"
+          },
+          "body": {
+            "ja": "凌 志棟（リョウ シトウ）。一橋大学ソーシャル・データサイエンス研究科に所属し、社会計算言語学の観点から意味変化研究と辞書資源の活用に取り組んでいます。",
+            "en": "I am Zhidong Ling, a doctoral student in the Graduate School of Social Data Science at Hitotsubashi University, working on semantic change and lexicon-oriented NLP."
+          }
+        },
+        {
+          "title": {
+            "ja": "言語・技術",
+            "en": "Languages & Skills"
+          },
+          "list": [
+            {
+              "ja": "日本語（めっちゃしゃべります）",
+              "en": "Japanese: highly fluent in daily and academic communication"
+            },
+            {
+              "ja": "中国語（母語、しかし下手）",
+              "en": "Chinese: native language"
+            },
+            {
+              "ja": "英語（TOEIC 840 / TOEFL 73、めっちゃしゃべります）",
+              "en": "English: active for academic communication (TOEIC 840 / TOEFL 73)"
+            },
+            {
+              "ja": "韓国語（ハングル文字を頑張って覚えています）",
+              "en": "Korean: currently learning Hangul and basic communication"
+            },
+            {
+              "ja": "Python",
+              "en": "Python"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "research",
+      "kicker": "02",
+      "title": {
+        "ja": "Research",
+        "en": "Research"
+      },
+      "type": "cards",
+      "wide": true,
+      "cards": [
+        {
+          "title": {
+            "ja": "主な研究テーマ",
+            "en": "Main Research Themes"
+          },
+          "list": [
+            {
+              "ja": "意味変化の検出: 手法開発と評価データセット構築",
+              "en": "Semantic shift detection: methods and evaluation resources"
+            },
+            {
+              "ja": "意味変化の分析: 分類、日本語における変化、LLM 利用",
+              "en": "Analysis of semantic change: typology, Japanese lexical change, and LLM-based approaches"
+            },
+            {
+              "ja": "単語表現: 語の意味の要素をどう捉えるか",
+              "en": "Word representation: modeling semantic components of lexical meaning"
+            },
+            {
+              "ja": "平易化",
+              "en": "Text simplification"
+            },
+            {
+              "ja": "最近の関心: 辞書構築",
+              "en": "Current interest: dictionary construction"
+            }
+          ]
+        },
+        {
+          "accent": true,
+          "title": {
+            "ja": "Research Note",
+            "en": "Research Note"
+          },
+          "body": {
+            "ja": "語の意味が時間とともにどう変わるのかを、コーパス・辞書・評価セット・LLM を組み合わせて捉えることに関心があります。単なる検出精度ではなく、何が変わったのかを説明できる評価設計も重視しています。",
+            "en": "I am interested in combining corpora, dictionaries, benchmark design, and LLMs to study how lexical meaning evolves over time. Beyond detection accuracy, I care about evaluation schemes that explain what changed and why."
+          }
+        }
+      ]
+    },
+    {
+      "id": "publications",
+      "kicker": "03",
+      "title": {
+        "ja": "Publications",
+        "en": "Publications"
+      },
+      "type": "groups",
+      "groups": [
+        {
+          "title": {
+            "ja": "論文誌",
+            "en": "Journal Articles"
+          },
+          "items": [
+            {
+              "text": "凌 志棟, 相田太一, 岡照晃, 小町守. 日本語意味変化検出のための評価データセットの構築と分析. 自然言語処理, Vol.31, No.4, 2024.",
+              "links": [
+                {
+                  "label": "Paper",
+                  "url": "https://www.jstage.jst.go.jp/article/jnlp/31/4/31_1487/_pdf/-char/ja"
+                }
+              ]
+            },
+            {
+              "text": "Hongfei Wang, Zhousi Chen, Zizheng Zhang, Zhidong Ling, Xiaomeng Pan, Wenjie Duan, Masato Mita, Mamoru Komachi. Revisiting the Evaluation for Chinese Grammatical Error Correction. Journal of Advanced Computational Intelligence and Intelligent Informatics, 28(6), 2024.",
+              "links": [
+                {
+                  "label": "Paper",
+                  "url": "https://www.jstage.jst.go.jp/article/jaciii/28/6/28_1380/_article/-char/ja/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": {
+            "ja": "国際会議・ワークショップ",
+            "en": "International Conferences & Workshops"
+          },
+          "items": [
+            {
+              "text": "Mao Shimada, Kexin Bian, Zhidong Ling, and Mamoru Komachi. HIT-YOU at TSAR 2025 Shared Task: Leveraging Similarity-Based Few-Shot Prompting, Round-Trip Translation, and Self-Refinement for Readability-Controlled Text Simplification. TSAR 2025.",
+              "links": [
+                {
+                  "label": "Paper",
+                  "url": "https://aclanthology.org/2025.tsar-1.20/"
+                }
+              ]
+            },
+            {
+              "text": "Zhidong Ling, Yuu Jinnai. On Generating Consistent and Attractive Promotional Introduction Text for Narrative Media Arts. Wordplay 2025 at EMNLP.",
+              "links": [
+                {
+                  "label": "Paper",
+                  "url": "https://wordplay-workshop.github.io/pdfs/36.pdf"
+                }
+              ]
+            },
+            {
+              "text": "Zhidong Ling, Zihao Li, Pablo Romero, Lifeng Han, Goran Nenadic. MaLei at the PLABA Track of TREC 2024: RoBERTa for Term Replacement, LLaMA 3.1 and GPT-4o for Complete Abstract Adaptation. PLABA 2024.",
+              "links": [
+                {
+                  "label": "Paper",
+                  "url": "https://arxiv.org/abs/2411.07381"
+                }
+              ]
+            },
+            {
+              "text": "Zhidong Ling, Taichi Aida, Teruaki Oka, and Mamoru Komachi. Construction of Evaluation Dataset for Japanese Lexical Semantic Change Detection. PACLIC 2023.",
+              "links": [
+                {
+                  "label": "Paper",
+                  "url": "https://aclanthology.org/2023.paclic-1.13/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": {
+            "ja": "国内会議・シンポジウム",
+            "en": "Domestic Conferences & Symposia"
+          },
+          "items": [
+            {
+              "text": "Xin Tan, 木山朔, 凌志棟, 小町守. 単語の意味の通時変化とドメイン変化は区別できるのか. 言語処理学会第32回年次大会, 2026."
+            },
+            {
+              "text": "大橋美緒, 木山朔, 凌志棟, 小町守. LLM による日本語複単語表現の字義的用例生成. 言語処理学会第32回年次大会, 2026."
+            },
+            {
+              "text": "島田真緒, 木山朔, 凌志棟, 小町守, 小木曽智信, 高村大也, 持橋大地. Neural KWIC: KWIC 形式用例からの動的単語埋め込みの獲得と分析. 情報処理学会第267回自然言語処理研究会, 2026."
+            },
+            {
+              "text": "凌 志棟, 小町 守. 辞書語義を用いた単語意味変化に対する軸ごとの分析. 「通時コーパス」シンポジウム2026.",
+              "links": [
+                {
+                  "label": "Link",
+                  "url": "https://www.ninjal.ac.jp/events_jp/20260307a/"
+                }
+              ]
+            },
+            {
+              "text": "凌 志棟, 陣内佑. 作品の魅力を伝えるためのあらすじの自動生成と評価に向けて. YANS 2025."
+            },
+            {
+              "text": "大橋美緒, 凌志棟, 木山朔, 小町守. 深層学習による日本語複単語表現の識別の課題分析. YANS 2025."
+            },
+            {
+              "text": "凌 志棟, 相田太一, 岡照晃, 小町守. 日本語意味変化検出の評価セットの拡張と検出手法の評価. 言語処理学会第30回年次大会, 2024.",
+              "links": [
+                {
+                  "label": "Paper",
+                  "url": "https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/P1-10.pdf"
+                }
+              ]
+            },
+            {
+              "text": "凌 志棟, 岡照晃, 小町守. 日本語意味変化検出の評価データセットの構築. 「通時コーパス」シンポジウム2023.",
+              "links": [
+                {
+                  "label": "Link",
+                  "url": "https://www.ninjal.ac.jp/events_jp/20230310a/"
+                }
+              ]
+            },
+            {
+              "text": "凌 志棟, 相田太一, 金輝燦, 岡照晃, 小林千真, 小町守. 日本語BERTを用いた単語の用例の分野別分析ツールの開発. 言語処理学会第28回年次大会, 2022.",
+              "links": [
+                {
+                  "label": "Paper",
+                  "url": "https://www.anlp.jp/proceedings/annual_meeting/2022/pdf_dir/PH2-13.pdf"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "experience",
+      "kicker": "04",
+      "title": {
+        "ja": "Experience & Grants",
+        "en": "Experience & Grants"
+      },
+      "type": "cards",
+      "cards": [
+        {
+          "title": {
+            "ja": "助成・奨学金",
+            "en": "Grants & Scholarships"
+          },
+          "timeline": [
+            {
+              "date": "2025.4 - 2028.3",
+              "content": {
+                "ja": "JST SPRING The Bridge to the Future",
+                "en": "JST SPRING The Bridge to the Future"
+              },
+              "links": [
+                {
+                  "label": "Program",
+                  "url": "https://www.hit-u.ac.jp/shushoku/spring/"
+                }
+              ]
+            },
+            {
+              "date": "2018.4 - 2019.3",
+              "content": {
+                "ja": "文部科学省外国人留学生学習奨励費",
+                "en": "MEXT Honors Scholarship for Privately Financed International Students"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "ja": "職歴",
+            "en": "Professional Experience"
+          },
+          "timeline": [
+            {
+              "date": "2025.9 - Now",
+              "content": {
+                "ja": "株式会社小学館 受託研究, 日本国語大辞典第三版",
+                "en": "Shogakukan, commissioned research for the third edition of Nihon Kokugo Daijiten"
+              }
+            },
+            {
+              "date": "2025.7 - Now",
+              "content": {
+                "ja": "Research Assistant, Hitotsubashi University",
+                "en": "Research Assistant, Hitotsubashi University"
+              }
+            },
+            {
+              "date": "2025.4 - 2025.9",
+              "content": {
+                "ja": "CyberAgent AI Lab, Research Internship, Reinforcement Learning Group (Mentor: Yuu Jinnai)",
+                "en": "CyberAgent AI Lab, Research Internship, Reinforcement Learning Group (Mentor: Yuu Jinnai)"
+              }
+            },
+            {
+              "date": "2025.4 - 2025.6",
+              "content": {
+                "ja": "一橋大学 Teaching Assistant, プログラミング I",
+                "en": "Teaching Assistant, Programming I, Hitotsubashi University"
+              }
+            },
+            {
+              "date": "2025.4 - 2025.6",
+              "content": {
+                "ja": "一橋大学 研究補助員",
+                "en": "Research Assistant Staff, Hitotsubashi University"
+              }
+            },
+            {
+              "date": "2024.4 - 2024.7",
+              "content": {
+                "ja": "東京都立大学 Teaching Assistant, NLP100本ノック 2024 メンター",
+                "en": "Teaching Assistant, Tokyo Metropolitan University, mentor for NLP 100 Knocks 2024"
+              }
+            },
+            {
+              "date": "2023.8 - 2023.12",
+              "content": {
+                "ja": "東京都立大学 臨時職員, 研究室と企業の共同研究",
+                "en": "Temporary staff, joint research project between lab and industry at Tokyo Metropolitan University"
+              }
+            },
+            {
+              "date": "2023.4 - 2023.7",
+              "content": {
+                "ja": "東京都立大学 Teaching Assistant, NLP100本ノック 2023 メンター",
+                "en": "Teaching Assistant, Tokyo Metropolitan University, mentor for NLP 100 Knocks 2023"
+              }
+            },
+            {
+              "date": "2023.3 - 2024.3",
+              "content": {
+                "ja": "株式会社テクサー, Azure を用いた社内 Chatbot 開発・RAG 実装",
+                "en": "Techsor Inc., internal chatbot development and RAG implementation on Azure"
+              }
+            },
+            {
+              "date": "2022.8 - 2022.9",
+              "content": {
+                "ja": "Neusoft JAPAN, 車生産で生成 AI の利用に関する研究開発",
+                "en": "Neusoft Japan, R&D on using generative AI in automobile production"
+              }
+            },
+            {
+              "date": "2022.4 - 2022.7",
+              "content": {
+                "ja": "東京都立大学 Teaching Assistant, NLP100本ノック 2022 メンター",
+                "en": "Teaching Assistant, Tokyo Metropolitan University, mentor for NLP 100 Knocks 2022"
+              }
+            },
+            {
+              "date": "2021.1 - 2022.5",
+              "content": {
+                "ja": "ELM Housing, 不動産賃貸担当アルバイト",
+                "en": "ELM Housing, part-time work in rental property support"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "kicker": "05",
+      "title": {
+        "ja": "Education",
+        "en": "Education"
+      },
+      "type": "timeline",
+      "items": [
+        {
+          "date": "2025.4 - Now",
+          "content": {
+            "ja": "一橋大学 ソーシャル・データサイエンス研究科, Komachi Lab",
+            "en": "Hitotsubashi University, Graduate School of Social Data Science, Komachi Lab"
+          },
+          "links": [
+            {
+              "label": "Komachi Lab",
+              "url": "https://hit.komachi.live/"
+            }
+          ]
+        },
+        {
+          "date": "2024.8 - 2024.12",
+          "content": {
+            "ja": "University of Manchester, Department of Computer Science, Student Visitor (Supervised by Prof. Goran Nenadic)",
+            "en": "University of Manchester, Department of Computer Science, Student Visitor (Supervised by Prof. Goran Nenadic)"
+          }
+        },
+        {
+          "date": "2022.4 - 2025.3",
+          "content": {
+            "ja": "東京都立大学大学院 システムデザイン研究科 情報科学域, Komachi Lab",
+            "en": "Tokyo Metropolitan University, Graduate School of Systems Design, Computer Science, Komachi Lab"
+          },
+          "links": [
+            {
+              "label": "Komachi Lab",
+              "url": "http://cl.sd.tmu.ac.jp/"
+            }
+          ]
+        },
+        {
+          "date": "2018.4 - 2022.3",
+          "content": {
+            "ja": "東京都立大学 システムデザイン学部 情報科学科, Komachi Lab",
+            "en": "Tokyo Metropolitan University, Faculty of Systems Design, Department of Computer Science, Komachi Lab"
+          },
+          "links": [
+            {
+              "label": "Komachi Lab",
+              "url": "http://cl.sd.tmu.ac.jp/"
+            }
+          ]
+        },
+        {
+          "date": "2017.7 - 2018.3",
+          "content": {
+            "ja": "日本語学校",
+            "en": "Japanese language school"
+          }
+        }
+      ]
+    },
+    {
+      "id": "links",
+      "kicker": "06",
+      "title": {
+        "ja": "Links",
+        "en": "Links"
+      },
+      "type": "links",
+      "items": [
+        {
+          "title": "Komachi Lab",
+          "url": "https://hit.komachi.live/",
+          "body": {
+            "ja": "所属研究室",
+            "en": "Current lab"
+          }
+        },
+        {
+          "title": "X / Twitter",
+          "url": "https://twitter.com/Dlexus4",
+          "body": {
+            "ja": "@Dlexus4",
+            "en": "@Dlexus4"
+          }
+        },
+        {
+          "title": "Speaker Deck",
+          "url": "https://speakerdeck.com/lexusd",
+          "body": {
+            "ja": "lexusd",
+            "en": "lexusd"
+          }
+        },
+        {
+          "title": "PACLIC 2023",
+          "url": "https://aclanthology.org/2023.paclic-1.13/",
+          "body": {
+            "ja": "意味変化評価データセット",
+            "en": "Evaluation dataset for semantic change"
+          }
+        },
+        {
+          "title": "Wordplay 2025",
+          "url": "https://wordplay-workshop.github.io/pdfs/36.pdf",
+          "body": {
+            "ja": "魅力的な紹介文生成",
+            "en": "Promotional introduction generation"
+          }
+        },
+        {
+          "title": "自然言語処理 2024",
+          "url": "https://www.jstage.jst.go.jp/article/jnlp/31/4/31_1487/_pdf/-char/ja",
+          "body": {
+            "ja": "日本語意味変化検出の評価セット",
+            "en": "Japanese semantic change benchmark"
+          }
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "ja": "このページは GitHub Pages 用の静的サイトとして構築しています。内容を変更する場合は data/site.json を編集してください。",
+    "en": "This site is built as a static homepage for GitHub Pages. Edit data/site.json to update the contents."
+  }
+}

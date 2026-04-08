@@ -37,6 +37,16 @@ body {
   line-height: 1.65;
 }
 
+.noscript-banner {
+  width: var(--content-width);
+  margin: 0 auto 24px;
+  padding: 14px 18px;
+  border: 1px solid rgba(122, 56, 24, 0.18);
+  border-radius: 16px;
+  background: #fff4ec;
+  color: #7a3818;
+}
+
 a {
   color: var(--accent);
   text-decoration-thickness: 1px;
@@ -60,6 +70,32 @@ html[lang="en"] [data-lang="ja"] {
   width: var(--content-width);
   margin: 0 auto;
   padding: 24px 0 56px;
+}
+
+.loading-shell {
+  min-height: 50vh;
+  display: grid;
+  place-items: center;
+}
+
+.loading-card {
+  width: min(560px, 100%);
+  padding: 28px 30px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: rgba(255, 252, 245, 0.88);
+  box-shadow: var(--shadow);
+  color: var(--muted);
+  text-align: center;
+}
+
+.loading-card p {
+  margin: 0;
+}
+
+.loading-card-error {
+  color: #7a3818;
+  background: #fff4ec;
 }
 
 .site-header {
@@ -144,7 +180,8 @@ html[lang="en"] [data-lang="ja"] {
 .hero-copy,
 .hero-aside > * ,
 .panel,
-.site-footer {
+.site-footer,
+.loading-card {
   border: 1px solid var(--line);
   border-radius: var(--radius-lg);
   background: var(--panel);
@@ -287,6 +324,15 @@ h1 {
   font-family: "Noto Serif JP", serif;
   font-size: 3.2rem;
   font-weight: 700;
+}
+
+.portrait-image {
+  width: min(100%, 220px);
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 26px;
+  display: block;
+  border: 1px solid rgba(29, 42, 42, 0.08);
 }
 
 .portrait-caption {
